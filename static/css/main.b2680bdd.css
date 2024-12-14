@@ -1,2 +1,0 @@
-body{background-color:#f4f0e8;margin:0}.App{align-items:center;display:flex;flex-direction:row;height:100vh;justify-content:center;width:100vw;.ComingSoon{color:#1e90ff;font-family:Verdana,sans-serif;font-size:2rem}}@media screen and (max-width:700px){.App{flex-direction:column}}@keyframes Blink{0%{transform:scaleY(1)}2%{transform:scaleY(.1)}4%{transform:scaleY(1)}}@keyframes dash{0%{stroke-dashoffset:822}to{stroke-dashoffset:0}}.BowltSudiosLogo{.eye{animation:Blink 4s infinite;transform-origin:50% 550%}}
-/*# sourceMappingURL=main.b2680bdd.css.map*/

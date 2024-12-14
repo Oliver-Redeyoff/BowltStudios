@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BowltStudios/static/css/main.325f649b.css",
-    "main.js": "/BowltStudios/static/js/main.02427fe4.js",
-    "static/js/453.ed3810f9.chunk.js": "/BowltStudios/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/BowltStudios/index.html",
-    "main.325f649b.css.map": "/BowltStudios/static/css/main.325f649b.css.map",
-    "main.02427fe4.js.map": "/BowltStudios/static/js/main.02427fe4.js.map",
-    "453.ed3810f9.chunk.js.map": "/BowltStudios/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.325f649b.css",
+    "main.js": "/static/js/main.3f818871.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/index.html",
+    "main.325f649b.css.map": "/static/css/main.325f649b.css.map",
+    "main.3f818871.js.map": "/static/js/main.3f818871.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325f649b.css",
-    "static/js/main.02427fe4.js"
+    "static/js/main.3f818871.js"
   ]
 }

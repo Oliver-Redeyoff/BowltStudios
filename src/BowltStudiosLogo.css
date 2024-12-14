@@ -1,0 +1,12 @@
+@keyframes Blink {
+    0% { transform: scaleY(1); }
+    5% { transform: scaleY(0.1); }
+    10% { transform: scaleY(1); }
+}
+
+.BowltSudiosLogo {
+    .eye {
+        transform-origin: 50% 550%;
+        animation: Blink 3s infinite;
+    }
+}

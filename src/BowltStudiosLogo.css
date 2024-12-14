@@ -18,4 +18,8 @@
         transform-origin: 50% 550%;
         animation: Blink 4s infinite;
     }
+
+    .eye-iris {
+        transition: transform 0.2s;
+    }
 }

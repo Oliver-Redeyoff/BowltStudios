@@ -1,7 +1,7 @@
 @keyframes Blink {
     0% { transform: scaleY(1); }
-    1% { transform: scaleY(0.1); }
-    2% { transform: scaleY(1); }
+    2% { transform: scaleY(0.1); }
+    4% { transform: scaleY(1); }
 }
 
 @keyframes dash {
@@ -14,16 +14,8 @@
 }
 
 .BowltSudiosLogo {
-    margin-bottom: 5rem;
-
     .eye {
         transform-origin: 50% 550%;
-        animation: Blink 8s infinite;
-    }
-
-    .dash {
-        stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
-        animation: dash 5s linear forwards;
+        animation: Blink 4s infinite;
     }
 }

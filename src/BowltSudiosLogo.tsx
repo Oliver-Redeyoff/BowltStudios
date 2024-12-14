@@ -75,7 +75,7 @@ export default function BowltSudiosLogo({ mousePos }: { mousePos: VectorPNull })
                 />
                 <path id="eye-left" className="eye"
                       d="M 924 1468 C 914 1448 907 1409 906 1365 C 905 1301 908 1290 933 1256 C 950 1234 969 1220 978 1222 C 1027 1231 1049 1403 1010 1468 C 983 1512 947 1512 924 1468 Z M 1008 1401 C 1013 1350 995 1264 978 1254 C 963 1244 941 1270 934 1307 C 929 1334 928.283 1375.686 931.103 1398.86 C 934.117 1423.629 937.471 1429.708 947.334 1450.867 C 973.79 1507.622 1001 1469 1008 1401 Z"/>
-                <path ref={leftEyeIris} id="eye-left-iris" className="eye-iris"  style={{transform: `translateX(${leftEyeIrisOffset.x}px) translateY(${-leftEyeIrisOffset.y}px)`}}
+                <path ref={leftEyeIris} id="eye-left-iris" className="eye-iris" style={{transform: `translateX(${leftEyeIrisOffset.x}px) translateY(${-leftEyeIrisOffset.y}px)`}}
                       d="M 937.754 1374.34 C 932.754 1366 937.754 1350.99 951.104 1340.98 C 967.774 1327.64 977.784 1327.64 992.794 1344.32 C 1002.79 1357.66 1006.14 1372.67 999.464 1377.67 C 984.454 1394.35 947.764 1392.68 937.754 1374.34 Z"
                 />
                 <path

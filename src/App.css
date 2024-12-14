@@ -1,7 +1,19 @@
 .App {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
+
+  .ComingSoon {
+    /*position: absolute;*/
+    /*left: 57%;*/
+    /*transform: translateX(-55%);*/
+    /*bottom: 3rem;*/
+    font-size: 2rem;
+    /*font-weight: bold;*/
+    font-family: "Baloo Thambi 2";
+    color: dodgerblue;
+  }
 }

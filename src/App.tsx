@@ -17,6 +17,7 @@ function App() {
     return (
         <div ref={appRef} className="App">
             <BowltSudiosLogo mousePos={mousePos} />
+            <div className="ComingSoon">Coming Soon...</div>
         </div>
       )
 }

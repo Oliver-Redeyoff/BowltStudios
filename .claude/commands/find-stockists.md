@@ -22,29 +22,26 @@ Use the Google Drive MCP connector to find the **"Bowlt Studios Stockists"** fol
 search_files query: mimeType = 'application/vnd.google-apps.folder' and title = 'Bowlt Studios Stockists'
 ```
 
-If the folder exists, note its `id`. Then list its contents:
+**Note:** if the folder does not exist the tool returns `{}` (empty object) — not an error. Treat that as an empty contacted list and proceed. You will create the folder in Step 7.
+
+If the folder exists, note its `id`. Then list its contents to get the contacted list:
 
 ```
 search_files query: '<folder_id>' in parents and mimeType != 'application/vnd.google-apps.folder'
 ```
 
-Collect every file title (e.g. `The Corner Gift Shop.txt`). Strip the `.txt` extension. This is your **contacted list** — never proceed with a shop that already appears here.
-
-If the folder doesn't exist yet, treat the contacted list as empty. You'll create the folder in Step 5.
+Collect every file title (e.g. `The Corner Gift Shop.txt`). Strip the `.txt` extension. This is your **contacted list** — never proceed with a shop whose name already appears here.
 
 ---
 
 ## Step 3 — Search for prospects
 
-Use WebSearch to find roughly 10 candidate London-based independent retailers. Run several targeted searches, for example:
-- "independent gift shops London"
-- "independent florists London gift cards"
-- "boutique lifestyle shops London independent makers"
-- "children's toy shops London independent"
-- "museum shop London gift stationery"
-- "garden centre gift shop London"
+Run these web searches **in parallel** to find roughly 10 candidate London-based independent retailers:
+- "independent gift shops London handmade cards stationery independent makers"
+- "independent florists London gift cards stationery local makers"
+- "independent children's toy shop London gift cards independent makers"
 
-A good prospect matches several of these signals from brand.md:
+Good fit signals:
 - Curated, independent product selection
 - Supports independent or local makers
 - Warm, whimsical, or handcrafted brand feel
@@ -55,27 +52,29 @@ Poor fit: large chains, discount retailers, edgy/adult tone, purely digital.
 
 For each candidate, note: name, rough location, website if visible in results.
 
+**Tip:** Shops that make their own cards (e.g. pressed flower cards) are still valid prospects — hand-illustrated watercolour animal characters are complementary to botanical or photographic cards, not competitive.
+
 ---
 
 ## Step 4 — Filter and select 3 new prospects
 
-Remove from your candidate list any shop whose name matches (or closely matches) a name from the contacted list in Step 2.
+Remove from your candidate list any shop whose name closely matches a name from the contacted list in Step 2.
 
-From the remaining candidates, select the **3 best fits** — the ones that most clearly match the target profile.
+From the remaining candidates, select the **3 best fits**.
 
 ---
 
-## Step 5 — Research each of the 3 prospects
+## Step 5 — Research each of the 3 prospects in parallel
 
-For each shortlisted shop, do deeper research using WebSearch. Find:
+Run all 3 research searches **simultaneously** (one search per shop). For each, find:
 
 - **Website URL**
-- **Instagram or social media** (if present)
+- **Instagram handle** (if present)
 - **Physical address**
 - **Contact email** — look on their Contact or About page. If no direct email, note the contact form URL.
-- **What they currently stock** — products, brands, categories. Any existing cards or illustration-based products?
-- **Their aesthetic and vibe** — how would you describe their brand in a sentence?
-- **A specific reason** this shop is a great fit for Bowlt Studios — something concrete you'll reference in the email.
+- **What they currently stock** — products, categories, any existing cards or illustration-based products
+- **Their aesthetic and vibe** — one sentence
+- **A specific, concrete reason** this shop is a great fit for Bowlt Studios — something you will reference by name in the email
 
 ---
 
@@ -92,66 +91,87 @@ Write one outreach email per shop. Follow the Bowlt Studios tone of voice from b
 - Sign off from Tilly
 
 **Each email must:**
-- Open with something specific about *that shop* — a product they stock, their aesthetic, something that shows you've looked at them
+- Open with something specific about *that shop* — a product they stock, a section of their website, something that shows you've genuinely looked at them
 - Explain what Bowlt Studios is in a sentence or two (hand-illustrated watercolour greeting cards, playful characters, made by Tilly in London)
-- Mention one or two specific card designs that would suit their customers — draw from brand.md examples and reference characters and scenes, not just the occasion
+- Mention one or two specific card designs that would suit their customers — draw from brand.md examples and reference characters and scenes, not just the occasion type
 - Include the website: https://bowltstudios.com/
 - Offer to send samples or a lookbook, or invite them to get in touch
-- Sign: Tilly, Bowlt Studios
+- Sign: Tilly / Bowlt Studios
 
 **Do not:**
 - Use exclamation marks at the end of every sentence
 - Use marketing buzzwords ("leverage", "synergy", "curated offering")
 - Write anything that sounds templated
 
-**Subject line:** Make it warm and specific — not "Wholesale Enquiry". Something that sounds like it came from a real person.
+**Subject line:** Warm and specific — not "Wholesale Enquiry". Something that sounds like it came from a real person.
 
 ---
 
-## Step 7 — Save each shop's details to Google Drive
+## Step 7 — Prepare Drive files and upload everything in one batch
 
-For each of the 3 shops, create a `.txt` file in the **"Bowlt Studios Stockists"** folder.
+### 7a — Create the folder if needed
 
-If the folder doesn't exist yet, create it first:
+If the folder didn't exist in Step 2, create it now:
 ```
 create_file title: "Bowlt Studios Stockists", mimeType: "application/vnd.google-apps.folder"
 ```
-Note the returned `id` as the parent folder ID.
+Capture the returned `id` as `FOLDER_ID`. If the folder already existed, use the `id` you noted in Step 2.
 
-Then create each client file. The filename should be the shop name exactly, e.g. `Florals & Things.txt`.
+### 7b — Base64-encode all three file contents
 
-**Important:** Set `disableConversionToGoogleType: true` so the file stays as plain text (not converted to a Google Doc). The content field must be **base64-encoded**.
+The Drive API requires base64-encoded content. Use a Bash tool with Python to encode all three files at once:
 
-File contents to encode and upload:
-```
-Shop Name: [name]
+```python
+import base64
+
+file1 = """Shop Name: [name]
 Address: [address]
 Website: [url]
-Contact Email: [email or contact form url]
-Instagram: [handle or url, if found]
-What they sell: [brief description]
-Why a good fit: [specific reason]
-Date first contacted: [today's date]
+Contact Email: [email]
+Instagram: [handle]
+What they sell: [description]
+Why a good fit: [reason]
+Date first contacted: [date]
 
 --- EMAIL SENT ---
 
-Subject: [subject line]
+Subject: [subject]
 
-[full email body]
+[full email body]"""
+
+file2 = """..."""
+file3 = """..."""
+
+print(base64.b64encode(file1.encode('utf-8')).decode('utf-8'))
+print('---SPLIT---')
+print(base64.b64encode(file2.encode('utf-8')).decode('utf-8'))
+print('---SPLIT---')
+print(base64.b64encode(file3.encode('utf-8')).decode('utf-8'))
 ```
 
+Split the output on `---SPLIT---` to get the three encoded strings.
+
+### 7c — Create all Drive files and Gmail drafts in one parallel batch
+
+Fire all 6 calls **simultaneously**:
+
+**3 × Drive file create** (one per shop):
+- `title`: shop name + `.txt` (e.g. `Florals & Things.txt`)
+- `mimeType`: `text/plain`
+- `parentId`: `FOLDER_ID`
+- `disableConversionToGoogleType`: `true` — **essential**, otherwise the file gets converted to a Google Doc
+- `content`: the base64-encoded string for that shop
+
+**3 × Gmail draft create** (one per shop):
+- `to`: array containing the shop's contact email, e.g. `["info@example.com"]`
+- `subject`: subject line from Step 6
+- `body`: full personalised email from Step 6
+
+If no contact email was found for a shop, leave `to` empty and note the contact form URL at the top of the email body.
+
 ---
 
-## Step 8 — Create Gmail drafts
-
-For each of the 3 shops, use the Gmail MCP connector to create a draft:
-- **To:** the shop's contact email (leave blank if no email was found, and note the contact form URL in the body)
-- **Subject:** the subject line from Step 6
-- **Body:** the full personalised email from Step 6
-
----
-
-## Step 9 — Summary
+## Step 8 — Summary
 
 Print a concise summary:
 

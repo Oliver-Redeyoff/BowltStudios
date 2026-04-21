@@ -4,6 +4,8 @@
 
 Bowlt Studios is a small, independent greeting card business founded in London by creative director Tilly. It's her creative outlet — a space for making happy, colourful illustrations that put a smile on people's faces.
 
+**Website:** https://bowltstudios.com/
+
 Tilly grew up by the seaside in Kent and has always loved watercolour. She studied Mechanical Engineering in Bath before moving into the corporate world in London, and Bowlt Studios is where her creative side lives. The brand's mission is to inspire people to lean into their happy, childlike side.
 
 ## Product
@@ -25,8 +27,17 @@ All illustrations are original and copyright protected.
 - **Medium:** Hand-drawn watercolour with ink outlines
 - **Palette:** Bright but soft — yellows, pinks, corals, teals, greens, with plenty of white space
 - **Characters:** Friendly, slightly wobbly, full of personality; a wholesome storybook feel
-- **Logo:** A smiling mushroom in a hand-drawn circle with "Bowlt Studios" curved around it
+- **Logo:** A smiling mushroom in a hand-drawn circle with "Bowlt Studios" curved around it — see [assets/logo.png](assets/logo.png)
 - **Paper:** Textured, quality card stock — the craft quality is part of the product
+
+### Card examples
+
+| File | Description |
+|------|-------------|
+| [assets/card_example_1.png](assets/card_example_1.png) | "Sorry to hear you're under the weather" — a white duck in yellow boots sheltering under a red and yellow umbrella in the rain |
+| [assets/card_example_2.png](assets/card_example_2.png) | "Get well soon" — a giraffe and a koala cuddled together |
+| [assets/card_example_3.png](assets/card_example_3.png) | "Wishing you a ROARSOME BIRTHDAY!" — a lion and tiger standing in a flower meadow with a small bird perched on the tiger |
+| [assets/card_example_4.png](assets/card_example_4.png) | Animals in a hot air balloon — giraffe, hippo, pig, tiger and friends in a red-and-white striped balloon with a red bird flying alongside |
 
 ## Tone of voice
 

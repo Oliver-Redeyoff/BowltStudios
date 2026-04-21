@@ -10,17 +10,50 @@ Tilly grew up by the seaside in Kent and has always loved watercolour. She studi
 
 ## Product
 
-Hand-illustrated watercolour greeting cards featuring playful characters — animals, whimsical scenes, and cheerful vignettes. Typical cards include:
-
-- A chef cow running a French milk stand (with ducklings)
-- Animals piled into a hot air balloon
-- A giraffe and mouse cuddling for a "Get well soon" card
-- A wildflower meadow packed with hidden animal characters
-- A lion and tiger wishing someone a "ROARSOME BIRTHDAY"
-
-Cards cover everyday occasions — birthdays, get well, thinking of you, congratulations — with a playful, child-friendly sensibility that still appeals to adults who want something warmer and more characterful than a mass-produced card.
+Hand-illustrated watercolour greeting cards featuring playful animal characters and cheerful scenes. All cards are A6, printed on 300gsm paper in small batches, sold blank inside with a recycled kraft envelope, packaged in a cello bag. Price: £3.25 each.
 
 All illustrations are original and copyright protected.
+
+### Full catalogue
+
+**Blank / occasion-neutral**
+
+| Title | Image |
+|-------|-------|
+| Animal hot air balloon card — blank | [assets/animal-hot-air-balloon.jpg](assets/animal-hot-air-balloon.jpg) |
+| Animal market — blank chicken card | [assets/animal-market-chicken.jpg](assets/animal-market-chicken.jpg) |
+| Animal market — blank cow card | [assets/animal-market-cow.jpg](assets/animal-market-cow.jpg) |
+| Animal market — blank rabbit card | [assets/animal-market-rabbit.jpg](assets/animal-market-rabbit.jpg) |
+| Animal party floral — blank card | [assets/animal-party-floral.jpg](assets/animal-party-floral.jpg) |
+
+**Birthday**
+
+| Title | Image |
+|-------|-------|
+| Birthday wishes — cow card | [assets/birthday-wishes-cow.jpg](assets/birthday-wishes-cow.jpg) |
+| Happy birthday card — cow besties | [assets/happy-birthday-cow-besties.jpg](assets/happy-birthday-cow-besties.jpg) |
+| Happy birthday card — dogs in the flowers | [assets/happy-birthday-dogs.jpg](assets/happy-birthday-dogs.jpg) |
+| Happy birthday card — queen swan & balloon | [assets/happy-birthday-swan.jpg](assets/happy-birthday-swan.jpg) |
+| Let's celebrate — penguin birthday card | [assets/lets-celebrate-penguin.jpg](assets/lets-celebrate-penguin.jpg) |
+| Lion and tiger roarsome birthday card | [assets/roarsome-birthday.jpg](assets/roarsome-birthday.jpg) |
+| Relax it's your birthday — tiger, bunny yoga card | [assets/relax-its-your-birthday.jpg](assets/relax-its-your-birthday.jpg) |
+
+**Get well / under the weather**
+
+| Title | Image |
+|-------|-------|
+| Get well soon card — giraffe, sloth & koala hug | [assets/get-well-soon.jpg](assets/get-well-soon.jpg) |
+| Sorry to hear you're under the weather card | [assets/under-the-weather.jpg](assets/under-the-weather.jpg) |
+
+**Other occasions**
+
+| Title | Image |
+|-------|-------|
+| Happy anniversary — giraffe card | [assets/happy-anniversary-giraffe.jpg](assets/happy-anniversary-giraffe.jpg) |
+| Happy New Home — animal card | [assets/happy-new-home.jpg](assets/happy-new-home.jpg) |
+| Thank you for helping me grow — bunny gardening teacher card | [assets/thank-you-for-helping-me-grow.jpg](assets/thank-you-for-helping-me-grow.jpg) |
+| Thanks a bunch hippo card | [assets/thanks-a-bunch-hippo.jpg](assets/thanks-a-bunch-hippo.jpg) |
+| Welcome little one — giraffe flower card | [assets/welcome-little-one.jpg](assets/welcome-little-one.jpg) |
 
 ## Visual identity
 
@@ -30,14 +63,16 @@ All illustrations are original and copyright protected.
 - **Logo:** A smiling mushroom in a hand-drawn circle with "Bowlt Studios" curved around it — see [assets/logo.png](assets/logo.png)
 - **Paper:** Textured, quality card stock — the craft quality is part of the product
 
-### Card examples
+### Card images
+
+All 19 card images are saved in `assets/` — see the full catalogue with image links in the Product section above. Legacy reference shots are also kept:
 
 | File | Description |
 |------|-------------|
-| [assets/card_example_1.png](assets/card_example_1.png) | "Sorry to hear you're under the weather" — a white duck in yellow boots sheltering under a red and yellow umbrella in the rain |
-| [assets/card_example_2.png](assets/card_example_2.png) | "Get well soon" — a giraffe and a koala cuddled together |
-| [assets/card_example_3.png](assets/card_example_3.png) | "Wishing you a ROARSOME BIRTHDAY!" — a lion and tiger standing in a flower meadow with a small bird perched on the tiger |
-| [assets/card_example_4.png](assets/card_example_4.png) | Animals in a hot air balloon — giraffe, hippo, pig, tiger and friends in a red-and-white striped balloon with a red bird flying alongside |
+| [assets/card_example_1.png](assets/card_example_1.png) | "Sorry to hear you're under the weather" — duck in yellow boots under a red and yellow umbrella |
+| [assets/card_example_2.png](assets/card_example_2.png) | "Get well soon" — giraffe and koala cuddled together |
+| [assets/card_example_3.png](assets/card_example_3.png) | "Wishing you a ROARSOME BIRTHDAY!" — lion and tiger in a flower meadow |
+| [assets/card_example_4.png](assets/card_example_4.png) | Animals in a hot air balloon — giraffe, hippo, pig, tiger and friends |
 
 ## Tone of voice
 

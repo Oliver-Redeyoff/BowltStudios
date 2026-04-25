@@ -80,7 +80,45 @@ Run all 3 research searches **simultaneously** (one search per shop). For each, 
 
 ## Step 6 — Write a personalised email for each shop
 
-Write one outreach email per shop. Follow the Bowlt Studios tone of voice from brand.md exactly:
+Write one outreach email per shop. Follow the Bowlt Studios tone of voice from brand.md exactly.
+
+**Email template inspiration:**
+
+Use these two templates as a starting point — adapt and personalise freely, don't copy them verbatim:
+
+---
+
+*Template A — concise and direct:*
+
+Hi [Contact Name if you can find it],
+
+I'm Tilly, the designer behind Bowlt Studios. We make hand-illustrated watercolour greeting cards featuring playful animal characters.
+
+I'd love to be considered as a potential stockist for your shop. Please find our wholesale catalogue attached, which outlines our collection, pricing, and order details.
+
+If you're currently reviewing new brands, I'd be delighted to discuss further and send you a sample pack!
+
+Thank you for your time,
+Tilly
+
+---
+
+*Template B — warmer and more personal:*
+
+Hi [Contact Name],
+
+I hope you're well. My name is Tilly, and I'm the founder of Bowlt Studios, a hand-illustrated watercolour greeting card brand based in London.
+
+I've been following your shop and love your selection of [mention something specific if possible]. I think our collection would complement your current range beautifully.
+
+I've attached our latest wholesale catalogue, which includes pricing, minimums, and product details. I'd be happy to send samples or answer any questions if helpful.
+
+Thank you for your time, and I look forward to hearing from you.
+
+Best wishes,
+Tilly
+
+---
 
 **The voice:**
 - Warm, upbeat, a bit playful — never pushy or corporate
@@ -102,6 +140,7 @@ Write one outreach email per shop. Follow the Bowlt Studios tone of voice from b
 - Use exclamation marks at the end of every sentence
 - Use marketing buzzwords ("leverage", "synergy", "curated offering")
 - Write anything that sounds templated
+- Use em dashes (—) anywhere in the email — they're a strong signal of AI-written text and make the writing feel less human
 
 **Subject line:** Warm and specific — not "Wholesale Enquiry". Something that sounds like it came from a real person.
 

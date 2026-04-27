@@ -80,19 +80,13 @@ Run all 3 research searches **simultaneously** (one search per shop). For each, 
 
 ## Step 6 — Write a personalised email for each shop
 
-Write one outreach email per shop. Follow the Bowlt Studios tone of voice from brand.md exactly.
+Write one short outreach email per shop. Emails should be brief — 3 to 4 short paragraphs at most. Use the templates below as a close guide; adapt only what needs to be personalised.
 
-**Email template inspiration:**
-
-Use these two templates as a starting point — adapt and personalise freely, don't copy them verbatim:
-
----
-
-*Template A — concise and direct:*
+**Template A — concise and direct:**
 
 Hi [Contact Name if you can find it],
 
-I'm Tilly, the designer behind Bowlt Studios. We make hand-illustrated watercolour greeting cards featuring playful animal characters.
+I'm Tilly, the designer behind Bowlt Studios. We create colourful, playful greeting cards from watercolour illustrations.
 
 I'd love to be considered as a potential stockist for your shop. Please find our wholesale catalogue attached, which outlines our collection, pricing, and order details.
 
@@ -103,13 +97,13 @@ Tilly
 
 ---
 
-*Template B — warmer and more personal:*
+**Template B — slightly warmer:**
 
 Hi [Contact Name],
 
-I hope you're well. My name is Tilly, and I'm the founder of Bowlt Studios, a hand-illustrated watercolour greeting card brand based in London.
+I hope you're well. My name is Tilly, and I'm the founder of Bowlt Studios, a small business creating colourful illustrated greeting cards, based in the UK.
 
-I've been following your shop and love your selection of [mention something specific if possible]. I think our collection would complement your current range beautifully.
+I've been following your shop and love your [mention one specific thing]. I think our collection would complement your current range beautifully.
 
 I've attached our latest wholesale catalogue, which includes pricing, minimums, and product details. I'd be happy to send samples or answer any questions if helpful.
 
@@ -120,27 +114,14 @@ Tilly
 
 ---
 
-**The voice:**
-- Warm, upbeat, a bit playful — never pushy or corporate
-- Write like a person, not a brand
-- Be specific: name card characters, mention the watercolour, reference the hand-drawn feel
-- Keep it short and genuine — a few short paragraphs
-- Gentle humour is fine where it fits naturally
-- Sign off from Tilly
-
-**Each email must:**
-- Open with something specific about *that shop* — a product they stock, a section of their website, something that shows you've genuinely looked at them
-- Explain what Bowlt Studios is in a sentence or two (hand-illustrated watercolour greeting cards, playful characters, made by Tilly in London)
-- Mention one or two specific card designs that would suit their customers — draw from brand.md examples and reference characters and scenes, not just the occasion type
-- Include the website: https://bowltstudios.com/
-- Offer to send samples or a lookbook, or invite them to get in touch
-- Sign: Tilly / Bowlt Studios
-
-**Do not:**
-- Use exclamation marks at the end of every sentence
-- Use marketing buzzwords ("leverage", "synergy", "curated offering")
-- Write anything that sounds templated
-- Use em dashes (—) anywhere in the email — they're a strong signal of AI-written text and make the writing feel less human
+**Rules:**
+- Keep it short. Do not add extra paragraphs beyond the template structure.
+- The one personalised line (what you love about the shop) is the only place to insert specific detail — keep it to one sentence.
+- Do not mention specific card designs or characters — keep it simple.
+- Do not use em dashes (—) anywhere — they read as AI-written.
+- Do not use exclamation marks at the end of every sentence.
+- Do not use marketing buzzwords ("leverage", "synergy", "curated offering").
+- Sign off as Tilly.
 
 **Subject line:** Warm and specific — not "Wholesale Enquiry". Something that sounds like it came from a real person.
 
